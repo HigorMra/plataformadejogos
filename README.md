@@ -6,7 +6,7 @@ Loja de demonstração feita em HTML, CSS e JavaScript.
 
 Usuário "michaelw" e senha "michaelwpass", conta de demonstração existente na lista DummyJSON. O nome de exibição local está definido como "Higor", os campos de username e e-mail mostram os dados devolvidos pelo endpoint.
 
-##Fluxos
+## Fluxos
 
 - Login via `POST https://dummyjson.com/auth/login`; token salvo no `localStorage`.
 - Perfil via `GET https://dummyjson.com/auth/me` com `Authorization: Bearer`.
@@ -15,6 +15,6 @@ Usuário "michaelw" e senha "michaelwpass", conta de demonstração existente na
 
 Os pagamentos são apenas simulados, então o formulário não deve receber dados de cartão reais(!).
 
-##Capas e créditos
+## Capas e créditos
 
 As capas principais carregam imagens públicas dos catálogos oficiais: assets da steam para jogos vendidos na Steam, uma imagem oficial do site minecraft.net para o Minecraft e arte oficial da Epic Games para Fortnite. Elas são carregadas pela internet; cada capa usa a arte SVG como reserva caso a imagem externa falhe. Os direitos das artes pertencem a seus respectivos estúdios e publicadoras, este projeto é apenas uma demonstração acadêmica(!).
