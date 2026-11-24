@@ -1,6 +1,6 @@
 # Arcade — Plataforma de Jogos
 
-Loja de demonstração feita em HTML, CSS e JavaScript.
+Loja de demonstração para ativiade feita em HTML, CSS e JavaScript.
 
 ## Acesso de teste
 
@@ -8,10 +8,10 @@ Usuário "michaelw" e senha "michaelwpass", conta de demonstração existente na
 
 ## Fluxos
 
-- Login via `POST https://dummyjson.com/auth/login`; token salvo no `localStorage`.
-- Perfil via `GET https://dummyjson.com/auth/me` com `Authorization: Bearer`.
-- Perfil, biblioteca, conquistas, loja de 40 jogos, busca, filtros e detalhes.
-- Uma capa principal pública por jogo e pagamento de demonstração por cartão, Pix ou boleto. Os preços em BRL são indicativos, baseados em vitrines digitais consultadas; variam por edição, loja e promoção. A compra na demonstração não é real.
+- Login com `POST https://dummyjson.com/auth/login`; token salvo no `localStorage`.
+- Perfil com `GET https://dummyjson.com/auth/me` com `Authorization: Bearer`.
+- Perfil, biblioteca, conquistas, loja com 40 jogos, busca, pesquisa, filtros e outros detalhes.
+- Uma capa principal pública por jogo e pagamento de demonstração por cartão, pix ou boleto. Os preços em BRL (Real) são indicativos, baseados em lojas digitais consultadas, variam por edição, loja e promoção. A compra na demonstração não é real(!).
 
 Os pagamentos são apenas simulados, então o formulário não deve receber dados de cartão reais(!).
 
